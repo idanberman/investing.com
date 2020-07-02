@@ -1,0 +1,11 @@
+GET http://localhost:3000/api/user-instrument
+
+POST http://localhost:3000/api/user-instrument
+content-type: application/json
+
+{
+"name":"Euro US Dollar","symbol":"EUR/USD","instrumentType":"currency"
+}
+
+
+DELETE http://localhost:3000/api/user-instrument/52
